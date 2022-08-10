@@ -1,0 +1,92 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+background: #141414;
+font-family: 'Times New Roman',Times, serif;
+color: white;
+font-size: 16px;
+}
+
+header.container{
+display: flax;
+flex-direction: row;
+align-items: center;
+justify-content: space-DeTween;
+
+}
+
+header .logo{
+margin0left: 5px;
+color: #e50914;
+font-family: 'Arial Black', Times;
+font-size: 40px;
+padding: 12px 0;
+}
+
+header nav a{
+text-decoration: none;
+color: #AAA;
+mardin-right: 12px;
+
+}
+
+header nav:houver{
+color:#ffff;
+}
+
+/*filme.principal*/
+
+
+.filme.principal{
+font-size: 16px;
+background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%), url('../img/capa-emi.jpeg');
+
+height: 400px;
+background-size:cover;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+width: 70%;
+margin-left: 24px;
+
+}
+
+.filme-principal .descricao{
+margin-bottom: 40px;
+
+}
+.titulo{
+margin-top: 15px;
+font-size: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande'
+}
+
+.botao{
+background-color: rgba(0,0,0,.50);
+border:none;
+color: white;
+
+padding: 15px 30px;
+margin-right: 15px;
+font-size: 12px;
+
+cursor: pointer;
+transition: 3s ease all;
+
+
+}
+
+.botao:houver{
+ background-color: white;
+	    color: black;
+}
